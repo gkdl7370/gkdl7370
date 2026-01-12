@@ -1,69 +1,44 @@
 # 👋 Hello, I'm Jiho Kim (Burin)
+### 🚀 Backend Engineer Bridging Theory and Practice
 
-### 🚀 6th Year Backend Engineer | Platform Scalability & Data Integrity Specialist
-
-안녕하세요 **플랫폼 확장성과 서비스 안정성**에 집중해 온 백엔드 엔지니어 김지호입니다.
-파편화된 레거시 시스템을 현대화하고 정량적 지표를 바탕으로 데이터 조회 성능을 극대화하는 엔지니어링을 지향합니다.
+"기술의 본질을 깊게 탐구하고, 배운 것을 현업의 복잡한 문제를 해결하는 도구로 정제합니다."
 
 ---
 
-### 🛠 Tech Stack
+### 🛠 Technical Dashboard
 
-- **Backend**: ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.x-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) ![Netty](https://img.shields.io/badge/Network-Netty-007ACC?style=flat-square&logo=netty&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-- **Data**: ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![GA4](https://img.shields.io/badge/Google_Analytics_4-E37400?style=flat-square&logo=google-analytics&logoColor=white)
-- **Infrastructure**: ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
----
-
-### 🌟 Key Project Achievements
-
-#### 1. One Core Platform (Data Integration & Optimization)
-**"30여 종의 파편화된 데이터를 단일 도메인으로 통합하여 시스템 확장성 확보"**
-- **DDD 기반 아키텍처**: 이기종 데이터를 Aggregate 중심의 단일 모델로 통합하여 플랫폼 기반 구축
-- **성능 최적화**: PostgreSQL 실행 계획 분석 및 Redis 캐싱을 통해 **데이터 조회 성능 3배 향상** 및 DB 부하 30% 감소
-- **데이터 기반 의사결정**: GA4 지표 분석을 통해 저활용 기능을 제거하고 운영 정책 우선순위 결정
-
-#### 2. Event-Driven Messaging (Scalability & Async)
-**"비동기 파이프라인 설계를 통한 장애 전파 차단 및 무중단 서비스 달성"**
-- **성능 혁신**: Netty 기반 Java 마이그레이션으로 초당 패킷 처리량 **200% 향상** 및 지연 시간 70% 감소
-- **연동 표준화**: 어댑터 패턴(Adapter Pattern)을 적용하여 신규 시스템 연동 기간을 **4주에서 1주로 단축(75% 개선)**
-- **C# 미들웨어**: 고속 데이터 수집에 최적화된 C# 경량 미들웨어를 자체 개발하여 서버 자원 효율화
-
-#### 3. Local-First Architecture (Data Integrity)
-**"불안정한 네트워크 환경에서의 데이터 신뢰성 95% 이상 보장"**
-- **양방향 동기화**: SQLite 기반 로컬 DB 선커밋 후 비동기 동기화 구조 설계로 데이터 유실 방지
-- **무결성 확보**: 증분 동기화(Sync Delta) 및 타임스탬프 기반 충돌 해결 로직으로 **데이터 오류율 95% 감소**
-- **효율 향상**: 데이터 검증 시각화 도구 도입으로 검증 리드타임 50% 단축
+| Category | Skills & Tools |
+| :--- | :--- |
+| **Languages** | ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white) |
+| **Frameworks** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.x-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) ![Netty](https://img.shields.io/badge/Netty-007ACC?style=for-the-badge&logo=netty&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) |
+| **Infrastructure** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
+| **Engineering** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![GA4](https://img.shields.io/badge/GA4-E37400?style=for-the-badge&logo=google-analytics&logoColor=white) |
 
 ---
 
-### 📈 External Activity & Problem Solving
-- **External Advisor**: 서울연구원 DB 설계 및 데이터 분석 자문 지원 (연구 데이터 구조적 문제 해결)
-- **Logic & Algorithm**: 백준(BOJ) Silver 2 ~ Gold 3 수준의 지속적 문제 풀이를 통한 논리 구조 강화
-- **Engineering Philosophy**: AI 지원 개발(Gemini 등)을 통한 로직 검증 및 기술 문서화의 표준화 지향
+### 🔍 Current Focus & Learning Journey
+
+단순한 기능 구현을 넘어, **'왜 이 기술인가?'**에 대한 답을 찾는 공부를 지속하고 있습니다.
+
+#### 1. 대용량 트래픽과 성능 최적화 (High-Performance)
+- **What I Study**: Netty의 비동기 이벤트 루프 구조와 JPA/QueryDSL의 실행 계획 분석을 심도 있게 공부합니다.
+- **Real-world Value**: 이론적 이해를 바탕으로 **초당 45,000건의 패킷 처리**와 **DB 조회 성능 3배 개선**이라는 결과로 연결하며, 시스템의 한계를 극복하는 즐거움을 현업에 기여하고 있습니다.
+
+#### 2. 유연한 시스템 설계와 현대화 (Modernization)
+- **What I Study**: 도메인 주도 설계(DDD)와 Event-Driven 아키텍처(Redis Pub/Sub)를 통해 복잡한 비즈니스 로직을 분해하는 법을 익히고 있습니다.
+- **Real-world Value**: 30여 종의 파편화된 레거시 데이터를 **단일 도메인(One Core)**으로 통합하여, 신규 연동 공수를 75% 절감하는 등 확장성 있는 비즈니스 토대를 만드는 데 활용합니다.
+
+#### 3. 데이터의 무결성과 자동화 (Data Integrity)
+- **What I Study**: 불안정한 환경에서도 데이터의 신뢰성을 보장하는 Local-First 동기화 알고리즘과 업무 효율을 높이는 ETL 자동화에 관심이 많습니다.
+- **Real-world Value**: 반복적인 수작업을 자동화하여 **업무 효율을 90% 개선**하고, 어떤 상황에서도 **유실률 5% 미만**의 견고한 데이터 파이프라인을 구축하는 엔지니어링을 지향합니다.
 
 ---
 
-### 📡 System Flow (Event-Driven Architecture)
+### 🧠 Growth Mindset
 
-```mermaid
-graph LR
-    subgraph "Ingest"
-        Sensor["📡 Industrial Sensors"]
-        Middleware["⚡ C# Middleware"]
-    end
+* **Daily Practice**: 매일 [Baekjoon Online Judge](https://github.com/gkdl7370/Algorithm) (Silver 2 ~ Gold 3) 문제를 풀며 알고리즘을 통한 논리적 사고력을 훈련합니다.
+* **Continuous Feedback**: GA4 데이터 분석을 통해 사용자 피드백을 수치로 확인하고, 이를 바탕으로 서비스 개선의 우선순위를 결정하는 정량적 사고 방식을 선호합니다.
+* **Collaboration**: 서울연구원 DB 설계 자문 등 외부 활동을 통해 기술적 의사결정을 지원하며, 지식을 공유하고 함께 성장하는 가치를 실천합니다.
 
-    subgraph "Core Service"
-        Redis["📦 Redis Pub/Sub"]
-        Netty["🚀 Java/Netty Server"]
-        JPA["💾 JPA/PostgreSQL"]
-    end
-
-    Sensor -->|Binary Packet| Middleware
-    Middleware -->|Async Publish| Redis
-    Redis -->|Subscribe| Netty
-    Netty -->|DDD Model| JPA
-
-    style Middleware fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
-    style Redis fill:#ffebee,stroke:#c62828,stroke-width:2px
-    style Netty fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+---
+Copyright © 2026. All rights reserved.

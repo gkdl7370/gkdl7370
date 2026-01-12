@@ -13,19 +13,19 @@
 * **Real-world Value**: 이론적 이해를 바탕으로 기존 C# 레거시 대비 **초당 패킷 처리량을 200% 향상**(15K → 45K PPS)시키는 고성능 게이트웨이 마이그레이션을 주도했습니다.
 
 #### 📂 [Level 2] Resilient & Scalable Architecture
-* [cite_start]**Study**: 도메인 주도 설계(DDD)와 Event-Driven 아키텍처를 통해 시스템 간 결합도를 낮추는 방법을 익히고 있습니다[cite: 35, 66, 130].
-* [cite_start]**Real-world Value**: 파편화된 30여 종의 데이터를 **단일 도메인(One Core)**으로 통합하여, 신규 시스템 연동 공수를 **75% 절감**하는 확장성 있는 플랫폼 기반을 구축했습니다[cite: 16, 20, 37, 78, 122, 134].
+* **Study**: 도메인 주도 설계(DDD)와 Event-Driven 아키텍처를 통해 시스템 간 결합도를 낮추는 방법을 익히고 있습니다.
+* **Real-world Value**: 파편화된 30여 종의 데이터를 **단일 도메인(One Core)**으로 통합하여, 신규 시스템 연동 공수를 **75% 절감**하는 확장성 있는 플랫폼 기반을 구축했습니다.
 
 #### 📂 [Level 3] Data Integrity & Automation
-* [cite_start]**Study**: 불안정한 환경에서도 데이터의 신뢰성을 보장하는 Local-First 동기화 알고리즘과 효율적인 ETL 파이프라인에 관심이 많습니다[cite: 81, 91, 135].
-* [cite_start]**Real-world Value**: 엑셀-DB 자동 적재 도구를 개발하여 단순 반복 업무 효율을 **90% 개선**하고, 네트워크 불안정 시에도 **95% 이상의 데이터 신뢰도**를 확보했습니다[cite: 20, 49, 102, 141, 142].
+* **Study**: 불안정한 환경에서도 데이터의 신뢰성을 보장하는 Local-First 동기화 알고리즘과 효율적인 ETL 파이프라인에 관심이 많습니다.
+* **Real-world Value**: 엑셀-DB 자동 적재 도구를 개발하여 단순 반복 업무 효율을 **90% 개선**하고, 네트워크 불안정 시에도 **95% 이상의 데이터 신뢰도**를 확보했습니다.
 
 ---
 
 ### 🧠 Growth Mindset
-* **Logic Training**: 매일 [Baekjoon Online Judge](https://github.com/gkdl7370/Algorithm) (Silver 2 ~ Gold 3) 문제를 해결하며 알고리즘 사고력을 근육처럼 키우고 있습니다.
-* [cite_start]**Data-Driven Decision**: 기능 구현에 앞서 "사용자가 진짜 원하는가?"를 GA4 수치로 검증하고 개발의 우선순위를 결정하는 정량적 사고를 지향합니다[cite: 109, 125].
-* [cite_start]**Knowledge Sharing**: 서울연구원 DB 설계 자문 등 외부 활동을 통해 기술적 의사결정을 지원하며 함께 성장하는 가치를 실천합니다[cite: 146, 150].
+* **Logic Training**: 꾸준히 [Baekjoon Online Judge](https://github.com/gkdl7370/Algorithm) 문제를 해결하며 알고리즘 사고력을 근육처럼 키우고 있습니다.
+* **Data-Driven Decision**: 기능 구현에 앞서 "사용자가 진짜 원하는가?"를 GA4 수치로 검증하고 개발의 우선순위를 결정하는 정량적 사고를 지향합니다.
+* **Knowledge Sharing**: 서울연구원 DB 설계 자문 등 외부 활동을 통해 기술적 의사결정을 지원하며 함께 성장하는 가치를 실천합니다.
 
 ---
 
@@ -41,4 +41,4 @@
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat&logo=github-actions&logoColor=white) ![GA4](https://img.shields.io/badge/GA4-E37400?style=flat&logo=google-analytics&logoColor=white)
 
 ---
-Copyright © 2026 Jiho Kim. [cite_start]All rights reserved. [cite: 115]
+Copyright © 2026 Jiho Kim. All rights reserved.

@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Jiho (Burin)
+# 👋 김지호
 
 ### 🚀 Backend Engineer | Efficiency & Stability Driven
 

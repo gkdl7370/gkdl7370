@@ -1,63 +1,69 @@
-# 🚀 Backend Engineer | Kim Ji-ho
+# 👋 Hello, I'm Jiho Kim (Burin)
 
-안녕하세요 **데이터의 효율적인 흐름과 견고한 아키텍처**를 설계하는 데 가치를 두는 백엔드 개발자입니다.  
-레거시 시스템의 현대화와 고성능 데이터 처리 엔진 구축을 통해 비즈니스 가치를 창출합니다. 
+### 🚀 6th Year Backend Engineer | Platform Scalability & Data Integrity Specialist
+
+안녕하세요 **플랫폼 확장성과 서비스 안정성**에 집중해 온 백엔드 엔지니어 김지호입니다.
+파편화된 레거시 시스템을 현대화하고 정량적 지표를 바탕으로 데이터 조회 성능을 극대화하는 엔지니어링을 지향합니다.
 
 ---
 
 ### 🛠 Tech Stack
 
-- **Backend**: ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.x-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![Netty](https://img.shields.io/badge/Network-Netty-007ACC?style=flat-square&logo=netty&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-- **Infrastructure**: ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-- **Database**: ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+- **Backend**: ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.x-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) ![Netty](https://img.shields.io/badge/Network-Netty-007ACC?style=flat-square&logo=netty&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+- **Data**: ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![GA4](https://img.shields.io/badge/Google_Analytics_4-E37400?style=flat-square&logo=google-analytics&logoColor=white)
+- **Infrastructure**: ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ---
 
-### 🌟 Project Highlights
+### 🌟 Key Project Achievements
 
-#### 1. [MassFlux-Gateway](https://github.com/gkdl7370/MassFlux-Gateway) (C# to Java Migration)
-**"레거시 수신 엔진을 현대화하여 동시 처리 성능 200% 혁신"** 
-- **핵심 성과**: 
-  - 초당 패킷 처리량 **200% 향상** (15K → 45K PPS) 및 지연 시간 **70% 감소** 
-  - Netty 기반의 **Zero-copy 파싱** 구조 설계로 CPU 점유율 25% 최적화 
-  - Docker Multi-stage 빌드를 통해 이미지 용량 **65% 경량화** (600MB → 210MB) 
-- **Troubleshooting**: JDK 17 마이그레이션 시 `tools.jar` 부재 문제를 Maven Wrapper 도입으로 해결하여 빌드 환경 독립성 확보 
+#### 1. One Core Platform (Data Integration & Optimization)
+**"30여 종의 파편화된 데이터를 단일 도메인으로 통합하여 시스템 확장성 확보"**
+- **DDD 기반 아키텍처**: 이기종 데이터를 Aggregate 중심의 단일 모델로 통합하여 플랫폼 기반 구축
+- **성능 최적화**: PostgreSQL 실행 계획 분석 및 Redis 캐싱을 통해 **데이터 조회 성능 3배 향상** 및 DB 부하 30% 감소
+- **데이터 기반 의사결정**: GA4 지표 분석을 통해 저활용 기능을 제거하고 운영 정책 우선순위 결정
 
-#### 2. [Excel-to-DB Loader](https://github.com/gkdl7370/SimpleIoT.Gateway) (ETL & Automation)
-**"산업용 시계열 데이터의 자동 정규화 및 적재 도구 개발"** 
-- **핵심 성과**: 
-  - 24시간 가로 형태의 데이터를 개별 시간 레코드로 변환하는 **ETL 파이프라인** 구축 
-  - 이기종 데이터(Excel to PostgreSQL) 매핑 자동화로 데이터 적재 시간 **90% 이상 단축** 
-  - 관심사 분리(SoC)를 적용한 레이어드 아키텍처 설계로 유지보수성 향상
+#### 2. Event-Driven Messaging (Scalability & Async)
+**"비동기 파이프라인 설계를 통한 장애 전파 차단 및 무중단 서비스 달성"**
+- **성능 혁신**: Netty 기반 Java 마이그레이션으로 초당 패킷 처리량 **200% 향상** 및 지연 시간 70% 감소
+- **연동 표준화**: 어댑터 패턴(Adapter Pattern)을 적용하여 신규 시스템 연동 기간을 **4주에서 1주로 단축(75% 개선)**
+- **C# 미들웨어**: 고속 데이터 수집에 최적화된 C# 경량 미들웨어를 자체 개발하여 서버 자원 효율화
 
-### 📈 Solving Challenges
-- **Baekjoon Online Judge**: Silver 2 ~ Gold 3 수준의 알고리즘 문제 풀이를 통한 논리적 사고 훈련
-- **Continuous Learning**: 산업용 시계열 데이터 자동 적재 및 성능 벤치마킹 연구 수행
+#### 3. Local-First Architecture (Data Integrity)
+**"불안정한 네트워크 환경에서의 데이터 신뢰성 95% 이상 보장"**
+- **양방향 동기화**: SQLite 기반 로컬 DB 선커밋 후 비동기 동기화 구조 설계로 데이터 유실 방지
+- **무결성 확보**: 증분 동기화(Sync Delta) 및 타임스탬프 기반 충돌 해결 로직으로 **데이터 오류율 95% 감소**
+- **효율 향상**: 데이터 검증 시각화 도구 도입으로 검증 리드타임 50% 단축
 
 ---
 
-### 📡 System Architecture (MassFlux-Gateway)
+### 📈 External Activity & Problem Solving
+- **External Advisor**: 서울연구원 DB 설계 및 데이터 분석 자문 지원 (연구 데이터 구조적 문제 해결)
+- **Logic & Algorithm**: 백준(BOJ) Silver 2 ~ Gold 3 수준의 지속적 문제 풀이를 통한 논리 구조 강화
+- **Engineering Philosophy**: AI 지원 개발(Gemini 등)을 통한 로직 검증 및 기술 문서화의 표준화 지향
+
+---
+
+### 📡 System Flow (Event-Driven Architecture)
 
 ```mermaid
-graph TD
-    subgraph "Ingest & Process Layer"
+graph LR
+    subgraph "Ingest"
         Sensor["📡 Industrial Sensors"]
-        Netty["⚡ Netty Engine (TCP 8003)"]
-        Decoder["⚙️ Decoder (Little Endian)"]
-        Handler["🧠 Business Logic"]
+        Middleware["⚡ C# Middleware"]
     end
 
-    subgraph "Forwarding Layer"
-        Tomcat["🍃 Spring Boot (8080)"]
-        API["👨‍💻 Monitoring / REST API"]
+    subgraph "Core Service"
+        Redis["📦 Redis Pub/Sub"]
+        Netty["🚀 Java/Netty Server"]
+        JPA["💾 JPA/PostgreSQL"]
     end
 
-    Sensor -->|Raw Binary| Netty
-    Netty --> Decoder
-    Decoder --> Handler
-    Handler --> API
-    Tomcat --> API
+    Sensor -->|Binary Packet| Middleware
+    Middleware -->|Async Publish| Redis
+    Redis -->|Subscribe| Netty
+    Netty -->|DDD Model| JPA
 
-    style Netty fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000
-    style Tomcat fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
-    style Handler fill:#fff9c4,stroke:#fbc02d,stroke-width:2px,color:#000
+    style Middleware fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style Redis fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style Netty fill:#e8f5e9,stroke:#388e3c,stroke-width:2px

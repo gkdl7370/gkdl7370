@@ -9,7 +9,7 @@
 현재 집중하고 있는 기술적 주제와 이를 현업에 어떻게 가치 있게 녹여내고 있는지를 공유합니다.
 
 #### 📂 [Level 1] High-Performance Networking
-* **Study**: Netty의 이벤트 기반 논블로킹 모델과 Zero-copy 메모리 활용법을 깊게 연구하고 있습니다.
+* **Study**: Netty의 이벤트 기반 논블로킹 모델과 Zero-copy 메모리 활용법을 깊게 공부하고 있습니다.
 * **Real-world Value**: 이론적 이해를 바탕으로 기존 C# 레거시 대비 **초당 패킷 처리량을 200% 향상**(15K → 45K PPS)시키는 고성능 게이트웨이 마이그레이션을 주도했습니다.
 
 #### 📂 [Level 2] Resilient & Scalable Architecture
@@ -23,7 +23,7 @@
 ---
 
 ### 🧠 Growth Mindset
-* **Logic Training**: 꾸준히 [Baekjoon Online Judge](https://github.com/gkdl7370/Algorithm) 문제를 해결하며 알고리즘 사고력을 근육처럼 키우고 있습니다.
+* **Logic Training**: 꾸준히 [Baekjoon Online Judge](https://github.com/gkdl7370/Algorithm) 문제를 해결하며 알고리즘 사고력을 키우고 있습니다.
 * **Data-Driven Decision**: 기능 구현에 앞서 "사용자가 진짜 원하는가?"를 GA4 수치로 검증하고 개발의 우선순위를 결정하는 정량적 사고를 지향합니다.
 * **Knowledge Sharing**: 서울연구원 DB 설계 자문 등 외부 활동을 통해 기술적 의사결정을 지원하며 함께 성장하는 가치를 실천합니다.
 

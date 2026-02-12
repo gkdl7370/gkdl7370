@@ -6,15 +6,15 @@
 ---
 
 ### 🔍 Focus & Practical Application
-현재 집중하고 있는 기술적 주제와 이를 현업에 어떻게 가치 있게 녹여내고 있는지를 공유합니다.
+현재 집중하고 있는 기술적 주제와 이를 현업에 어떻게 가치 있게 녹여내고 있는지를 기록합니다.
 
 #### 📂 [Focus 1] High-Performance Networking
 * **Study**: Netty의 이벤트 기반 논블로킹 모델과 Zero-copy 메모리 활용법을 깊게 공부하고 있습니다.
-* **Real-world Value**: 이론적 이해를 바탕으로 기존 C# 레거시 대비 **초당 패킷 처리량을 200% 향상**(15K → 45K PPS)시키는 고성능 게이트웨이 마이그레이션을 진행중입니.
+* **Real-world Value**: 이론적 이해를 바탕으로 기존 C# 레거시 대비 **초당 패킷 처리량을 200% 향상**(15K → 45K PPS)시키는 고성능 게이트웨이 마이그레이션을 진행중입니다.
 
 #### 📂 [Focus 2] Resilient & Scalable Architecture
 * **Study**: 도메인 주도 설계(DDD)와 Event-Driven 아키텍처를 통해 시스템 간 결합도를 낮추는 방법을 익히고 있습니다.
-* **Real-world Value**: 파편화된 30여 종의 데이터를 **단일 도메인(One Core)**으로 통합하여 신규 시스템 연동 공수를 **75% 절감**하는 확장성 있는 플랫폼 기반을 구축해서 운영중입니.
+* **Real-world Value**: 파편화된 30여 종의 데이터를 **단일 도메인(One Core)** 으로 통합하여 신규 시스템 연동 공수를 **75% 절감**하는 확장성 있는 플랫폼 기반을 구축해서 운영중입니다.
 
 #### 📂 [Focus 3] Data Integrity & Automation
 * **Study**: 오프라인 환경에서도 데이터 무결성을 보장하기 위해 **SQLite WAL 모드** 기반의 Local-First 아키텍처와 **데이터 동기화 충돌 해결(Conflict Resolution) 전략**을 연구하고 있습니다.

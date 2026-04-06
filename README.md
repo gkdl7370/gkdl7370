@@ -1,42 +1,43 @@
-# 🚀 Engineering for Performance & Reliability
-### 👋 김지호
+## 김지호 — Backend Engineer
 
-> **"매일 공부하고 배운 것을 현업의 복잡한 문제를 해결하는 도구로 사용합니다."**
+Java · Spring Boot 기반 백엔드 엔지니어. 5년간 수자원 도메인의
+레거시 시스템을 단일 플랫폼으로 통합하고, 대용량 비동기 처리 구조를
+설계·운영해왔습니다.
 
----
-
-### 🔍 Focus & Practical Application
-현재 집중하고 있는 기술적 주제와 이를 현업에 어떻게 가치 있게 녹여내고 있는지를 기록합니다.
-
-#### 📂 [Focus 1] High-Performance Networking
-* **Study**: Netty의 이벤트 기반 논블로킹 모델과 Zero-copy 메모리 활용법을 깊게 공부하고 있습니다.
-* **Real-world Value**: 이론적 이해를 바탕으로 기존 C# 레거시 대비 **초당 패킷 처리량을 200% 향상**(15K → 45K PPS)시키는 고성능 게이트웨이 마이그레이션을 진행중입니다.
-
-#### 📂 [Focus 2] Resilient & Scalable Architecture
-* **Study**: 도메인 주도 설계(DDD)와 Event-Driven 아키텍처를 통해 시스템 간 결합도를 낮추는 방법을 익히고 있습니다.
-* **Real-world Value**: 파편화된 30여 종의 데이터를 **단일 도메인(One Core)** 으로 통합하여 신규 시스템 연동 공수를 **75% 절감**하는 확장성 있는 플랫폼 기반을 구축해서 운영중입니다.
-
-#### 📂 [Focus 3] Data Integrity & Automation
-* **Study**: 오프라인 환경에서도 데이터 무결성을 보장하기 위해 **SQLite WAL 모드** 기반의 Local-First 아키텍처와 **데이터 동기화 충돌 해결(Conflict Resolution) 전략**을 연구하고 있습니다.
-* **Real-world Value**: 단순 반복 업무의 수작업 비중을 **90% 이상 개선**하고 네트워크 불안정 시에도 **95% 이상의 데이터 신뢰도**를 확보했습니다.
+**gkdl7370@naver.com**
 
 ---
 
-### 🧠 Growth Mindset
-* **Logic Training**: 꾸준히 [Baekjoon Online Judge](https://github.com/gkdl7370/Algorithm) 문제를 해결하며 알고리즘 사고력을 키우고 있습니다.
-* **Data-Driven Decision**: 기능 구현에 앞서 "사용자가 진짜 원하는가?"를 GA4 수치로 검증하고 개발의 우선순위를 결정하는 정량적 사고를 지향합니다.
-* **Knowledge Sharing**: 서울연구원 DB 설계 자문 등 외부 활동을 통해 기술적 의사결정을 지원하며 함께 성장하는 가치를 실천합니다.
+### 주요 관심 영역
+
+**Platform Architecture** — 파편화된 레거시를 DDD 기반 단일 도메인으로
+통합. 30종 이기종 데이터 통합, 신규 연동 공수 75% 절감 경험.
+
+**High-throughput Systems** — Netty 기반 비표준 TCP 게이트웨이 설계.
+C# 레거시 대비 처리량 200% 향상(15K → 45K PPS) 달성.
+
+**Data Reliability** — Local-First 아키텍처와 Sync Delta 동기화로
+네트워크 불안정 환경에서 데이터 유실률 95% 감소.
 
 ---
 
-### 🛠 Technical Stack
+### 기술 스택
 
 **Backend**
-![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.x-6DB33F?style=flat&logo=spring-boot&logoColor=white) ![Netty](https://img.shields.io/badge/Netty-007ACC?style=flat&logo=netty&logoColor=white) ![JPA](https://img.shields.io/badge/JPA_Hibernate-59666C?style=flat&logo=hibernate&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+Java 17 · Spring Boot · Spring Batch · JPA · Netty
 
-**Data & Infrastructure**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+**Data**
+PostgreSQL · Redis · SQLite
 
-**DevOps & Analysis**
-![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat&logo=github-actions&logoColor=white) ![GA4](https://img.shields.io/badge/GA4-E37400?style=flat&logo=google-analytics&logoColor=white)
+**Infra**
+Docker · Linux · GitHub Actions
 
+---
+
+### 프로젝트
+
+| 레포 | 한 줄 설명 |
+|------|-----------|
+| [One-Core-Architecture](https://github.com/gkdl7370/One-Core-Architecture) | DDD 기반 레거시 통합 플랫폼 설계 |
+| [MassFlux-Gateway](https://github.com/gkdl7370/MassFlux-Gateway) | Netty 기반 고성능 TCP 바이너리 게이트웨이 |
+| [Data-Flux](https://github.com/gkdl7370/Data-Flux) | Spring Batch ETL 파이프라인 |

@@ -3,9 +3,9 @@
 Java와 Spring Boot를 중심으로 레거시 시스템 연동, 비동기 데이터 처리,
 배치 기반 데이터 이관을 다뤄왔습니다.
 
-요즘은 제가 진행했던 프로젝트들을 다시 정리하면서, 단순히 “이 기술을 써봤다”가
-아니라 어떤 문제를 보고 어떤 방식으로 풀었는지 보여주는 방향으로 포트폴리오를
-다듬고 있습니다.
+요즘은 예약·결제 흐름을 주제로 한 `SeatHub`를 만들면서, 기존에 다뤘던
+도메인 분리, 배치 처리, 고처리량 요청 처리, 비동기 이벤트 처리, 운영 추적성을
+하나의 백엔드 서비스 흐름 안에 다시 적용하고 있습니다.
 
 **gkdl7370@naver.com**
 
@@ -30,8 +30,8 @@ policy, anti-corruption layer 같은 구조를 실험하고 있습니다.
 ### 기술 스택
 
 **Backend**: Java 17, Spring Boot, Spring Batch, Netty, JPA, C#/.NET  
-**Data**: PostgreSQL, Oracle, Redis, SQLite  
-**Infra**: Docker, Linux, GitHub Actions
+**Data**: MySQL, PostgreSQL, Oracle, Redis, SQLite  
+**Infra**: Docker, Docker Compose, Linux, GitHub Actions
 
 ---
 
@@ -39,6 +39,7 @@ policy, anti-corruption layer 같은 구조를 실험하고 있습니다.
 
 | 저장소 | 정리한 내용 |
 | --- | --- |
+| [SeatHub](https://github.com/gkdl7370/SeatHub) | 예약·결제 백엔드 시스템, 동시성 제어, 상태 전이, Docker 기반 로컬 실행 환경 |
 | [MassFlux-Gateway](https://github.com/gkdl7370/MassFlux-Gateway) | Netty 기반 TCP 패킷 처리, 게이트웨이 핸들러 테스트, 검증 노트 |
 | [Data-Flux](https://github.com/gkdl7370/Data-Flux) | Spring Batch 데이터 분해 로직, JDBC Writer, processor 테스트, 벤치마크 정리 |
 | [migration](https://github.com/gkdl7370/migration) | Oracle to PostgreSQL 이관 구조, 동적 SQL 생성 테스트, 이관 검증 노트 |
@@ -48,12 +49,13 @@ policy, anti-corruption layer 같은 구조를 실험하고 있습니다.
 
 ---
 
-### 현재 정리 방향
+### 현재 진행 방향
 
-포트폴리오를 다시 보면서, README의 설명과 실제 코드 사이의 간격을 줄이는 데
-집중하고 있습니다.
+기존 프로젝트에서 따로 다뤘던 주제를 `SeatHub`에 다시 적용하면서, 설명과 코드,
+테스트가 함께 남는 백엔드 프로젝트를 만드는 데 집중하고 있습니다.
 
-- 핵심 로직은 테스트로 검증하기
-- CI에서 테스트를 건너뛰지 않기
-- 성능 수치는 측정 기준을 먼저 정리한 뒤 공개하기
-- 학습 프로젝트와 실무형 프로젝트의 범위를 분명히 나누기
+- 예약·결제 상태 전이를 명확히 관리하기
+- 같은 좌석에 대한 동시 예약을 테스트로 검증하기
+- 관리자 검색 API에서 N+1과 인덱스 개선 과정을 남기기
+- Docker Compose로 재현 가능한 로컬 실행 환경 유지하기
+- 기존 프로젝트의 설계 경험을 하나의 서비스 흐름에 통합하기
